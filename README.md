@@ -25,14 +25,12 @@ This project uses deep learning techniques to identify and classify diseases in 
 3. Displays the result with an Accuracy score.
 
 ##  Sample Prediction
-
-![Prediction Image 1](images/screenshot1.jpg)
-![Prediction Image 2](images/screenshot2.jpg)
-![Prediction Image 3](images/screenshot3.jpg)
-![Prediction Image 4](images/screenshot4.jpg)
-![Prediction Image 5](images/screenshot5.jpg)
-![Prediction Image 6](images/screenshot6.jpg)
-
+![Prediction Image 1](images/screenshot1.jpeg)  
+![Prediction Image 2](images/screenshot2.jpeg)  
+![Prediction Image 3](images/screenshot3.jpeg)  
+![Prediction Image 4](images/screenshot4.jpeg)  
+![Prediction Image 5](images/screenshot5.jpeg)  
+![Prediction Image 6](images/screenshot6.jpeg)
 
 ##  Contributions
 Open to ideas and improvements! Pull requests welcome.
