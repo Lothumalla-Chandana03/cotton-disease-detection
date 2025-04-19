@@ -10,7 +10,7 @@ This project uses deep learning techniques to identify and classify diseases in 
 
 ## Tech Stack
 - Python, Flask 
-- TensorFlow / Keras
+- TensorFlow
 - OpenCV
 - HTML, CSS, JavaScript (Frontend)
 
@@ -25,14 +25,13 @@ This project uses deep learning techniques to identify and classify diseases in 
 3. Displays the result with an Accuracy score.
 
 ##  Sample Prediction
-## 📷 Sample Predictions
 
-![Prediction Image 1](images/screenshot1.png)
-![Prediction Image 2](images/screenshot2.png)
-![Prediction Image 3](images/screenshot3.png)
-![Prediction Image 4](images/screenshot4.png)
-![Prediction Image 5](images/screenshot5.png)
-![Prediction Image 6](images/screenshot6.png)
+![Prediction Image 1](images/screenshot1.jpg)
+![Prediction Image 2](images/screenshot2.jpg)
+![Prediction Image 3](images/screenshot3.jpg)
+![Prediction Image 4](images/screenshot4.jpg)
+![Prediction Image 5](images/screenshot5.jpg)
+![Prediction Image 6](images/screenshot6.jpg)
 
 
 ##  Contributions
