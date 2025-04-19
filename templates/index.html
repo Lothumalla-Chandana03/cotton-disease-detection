@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - Cotton Disease Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <a href="/">Home</a>
+        <a href="/upload">Upload</a>
+        <a href="/result">Result</a>
+    </div>
+    <div class="image-grid">
+        <div class="left-column">
+            <img src="{{ url_for('static', filename='images/1.jpg') }}" alt="img1">
+            <img src="{{ url_for('static', filename='images/6.jpg') }}" alt="img2">
+            <img src="{{ url_for('static', filename='images/77.jpg') }}" alt="img3">
+        </div>
+        <div class="right-column">
+            <img src="{{ url_for('static', filename='images/32.jpg') }}" alt="img4">
+            <img src="{{ url_for('static', filename='images/36.jpg') }}" alt="img5">
+            <img src="{{ url_for('static', filename='images/46.jpg') }}" alt="img6">
+        </div>
+    </div>
+    
+    <h1>Cotton Plant Disease Detection</h1>
+    <p>Upload an image to check for disease.</p>
+    <a href="/upload"><button>Upload Image</button></a>
+    
+</body>
+</html>

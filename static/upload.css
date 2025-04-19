@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color:lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.navbar {
+    background-color: #0c0c0c;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end; /* Aligns items to the right */
+    padding: 0 20px; /* Optional: adds space on left & right */
+    z-index: 10;
+    
+}
+.navbar a {
+    color: white;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+
+
+.navbar a:hover {
+    background-color: #4caf50;
+    color: white;
+}
+
+
+
+.form-container {
+    background-color:springgreen;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(157, 26, 30);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 400px;
+}
+
+h1 {
+    color: #0c0c0c;
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+    margin-top:-450px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    
+
+}
+
+input[type="file"] {
+    padding: 10px;
+    border: 2px dashed #4caf50;
+    border-radius: 8px;
+    background-color:gray;
+    cursor: pointer;
+    
+    box-sizing: border-box;
+    margin-left: -480px;
+    margin-top: -170px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: -500px;
+
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='result.css') }}">
+    
+</head>
+<body>
+    <div class="navbar">
+        <a href="/">Home</a>
+        <a href="/upload">Upload</a>
+        <a href="/result">Result</a>
+    </div>
+    <h2>Uploaded Image</h2>
+    <img src="{{ url_for('uploaded_file', filename=file_name) }}" alt="Uploaded Image" width="300">
+    
+    <h2>Result:</h2>
+    <p><strong>Predicted Class:</strong> {{ result }}</p>
+    <p><strong>Accuracy:</strong> {{ accuracy }}%</p>
+
+    <a href="{{ url_for('upload_file') }}">Upload Another Image</a>
+</body>
+</html>

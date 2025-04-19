@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #90ee90;
+    text-align: center;
+}
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    padding: 15px 20px;
+    text-align: right;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.image-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.left-column,
+.right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.left-column img,
+.right-column img {
+    width: 300px;            /* Adjust width as needed */
+    height: 205px;         /* 3 images fill vertical space */
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: white; /* Text color */
+    background-color: green; /* Background behind text */
+    padding: 20px 30px; /* Space around the text */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center;
+    width:1000px;
+    margin: 30px auto 20px auto; /* Center it horizontally and add some top margin */
+    font-size: 36px; /* Optional: larger font */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: subtle shadow */
+    margin-top: -615px;
+}
+p {
+    color: rgb(6, 6, 6);
+    font-size: 20px; /* Adjust this size as needed */
+    margin-top: 10px;
+}
