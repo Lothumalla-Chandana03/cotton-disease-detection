@@ -9,7 +9,7 @@ This project uses deep learning techniques to identify and classify diseases in 
 - Goal: To help farmers and agricultural experts monitor crop health and improve yields.
 
 ## Tech Stack
-- Python,Flask 
+- Python, Flask 
 - TensorFlow / Keras
 - OpenCV
 - HTML, CSS, JavaScript (Frontend)
@@ -22,7 +22,7 @@ This project uses deep learning techniques to identify and classify diseases in 
 ## How to Use
 1. Upload a cotton leaf image.
 2. The model predicts the disease.
-3. Displays the result with Accuracy score.
+3. Displays the result with an Accuracy score.
 
 ##  Sample Prediction
 ## 📷 Sample Predictions
@@ -35,8 +35,7 @@ This project uses deep learning techniques to identify and classify diseases in 
 ![Prediction Image 6](images/screenshot6.png)
 
 
-## 🤝 Contributions
+##  Contributions
 Open to ideas and improvements! Pull requests welcome.
 
-## 📝 License
-MIT License
+
